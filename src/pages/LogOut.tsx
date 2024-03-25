@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonText, IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './LogOut.css';
 
@@ -16,6 +16,10 @@ const LogOut: React.FC = () => {
                         <IonTitle size="large">Tab 3</IonTitle>
                     </IonToolbar>
                 </IonHeader>
+                <IonCard class="myDesign">
+                    <IonText><h1 class="myDesign">Are you sure you want to log out?</h1></IonText>
+                    <IonButton href="/login">Yes, log me out.</IonButton>
+                </IonCard>
             </IonContent>
         </IonPage>
     );

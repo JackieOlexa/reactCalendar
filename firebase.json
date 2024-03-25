@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "jackies-react-calendar",
     "public": "dist",
     "ignore": [
       "firebase.json",

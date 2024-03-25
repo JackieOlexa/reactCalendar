@@ -19,25 +19,19 @@ const Tab2: React.FC = () => {
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">To Do List</IonTitle>
-            <IonButtons slot="end">
-              <IonButton href="/logOut">Log Out</IonButton>
-              <IonButton href="/login">Change Account</IonButton>
-              <IonButton href="/createAccount">Create Account</IonButton>
-            </IonButtons>
           </IonToolbar>
         </IonHeader>
         <IonText><h3 class="myDesign">Add a new todo item:</h3></IonText>
         <IonCard class="card-center">
           <form>
-            <IonInput label="Thing to do:" placeholder="New Todo"></IonInput>
-            <IonInput label="Deadline:" placeholder="mm/dd/yyyy"></IonInput>
+            <IonInput label="Todo Name"></IonInput>
             <IonButton class="submitting" type="submit">Submit</IonButton>
           </form>
         </IonCard>
         <IonCard>
-          <TodoItem id="todo-0" name="Eat" dueDate="03/25/2024" completed={true} />
-          <TodoItem id="todo-1" name="Sleep" dueDate="06/19/2102" completed={false} />
-          <TodoItem id="todo-2" name="Repeat" dueDate="03/26/2024" completed={false} />
+          <TodoItem name="Eat" completed={true} />
+          <TodoItem name="Sleep" completed={false} />
+          <TodoItem name="Repeat" completed={false} />
         </IonCard>
       </IonContent>
     </IonPage>

@@ -2,6 +2,29 @@ ion-title {
     font-size: 40px;
 }
 
+ion-toolbar {
+    --background: #CEF0FD;
+}
+
+ion-button {
+    font-size: 10px;
+}
+
+h1.myDesign {
+    font-size: 40px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+h1 span {
+    font-size: 10px;
+    text-align: right;
+}
+
+h2.myDesign {
+    font-size: 10px;
+    text-align: right;
+}
+
 ion-datetime {
     max-width: 100%;
     height: auto;

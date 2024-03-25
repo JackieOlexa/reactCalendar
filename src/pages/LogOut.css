@@ -1,0 +1,9 @@
+ion-card.myDesign {
+    padding-top: 5%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: none;
+    border-radius: 5px;
+    border-color: aqua
+}

@@ -1,0 +1,7 @@
+{
+  "name": "jackiesreactcalendar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
